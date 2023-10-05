@@ -1,0 +1,29 @@
+.new-button-container {
+  padding: 10px;
+  height: 8vh;
+  width: 100%;
+  background: #f8fafc;
+}
+.new-button {
+  background: #dbeafe;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  height: 40px;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  padding: 10px;
+}
+.plus-image {
+  height: 15px;
+  margin-right: 10px;
+}
+.new-text {
+  font-family: 'Bree Serif';
+  font-size: 20px;
+  font-weight: 500;
+  color: #0f172a;
+}
