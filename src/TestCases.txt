@@ -1,0 +1,106 @@
+Total:49
+46
+3
+Nxt Slides tests
+
+49
+46
+3
+Page should consist of at least two HTML list items, and the Initial Slides List should be rendered using a unique key as a prop to display each slide tab respectively
+159 ms 
+Page should consist of an HTML image element with alt attribute value as "nxt slides logo" and src as the given logo URL
+53 ms 
+Page should consist of an HTML main heading element with text content as "Nxt Slides"
+118 ms 
+Page should consist of an HTML image element with alt attribute value as "new plus icon" and src as the given new plus icon URL
+40 ms 
+Page should consist of an HTML image element inside an HTML button element with text content as "New"
+35 ms 
+Page should consist of the HTML paragraph elements with text content as the corresponding slide number
+25 ms 
+Page should consist of the HTML main heading elements with text content as the values of the key "heading" from the Initial Slides List provided
+584 ms 
+Page should consist of the HTML paragraph elements with text content as the values of the key "description" from the Initial Slides List provided
+24 ms 
+Page should consist of at least one HTML ordered list element to display the list of slide tab items
+27 ms 
+Page should consist of at least seven HTML list items to display the slide tab items
+38 ms 
+Page should consist of the HTML list items with testid attribute value as "slideTab{slideNumber}", here "slideNumber" is the sequence order of the slide tab
+14 ms 
+When the page is opened initially, then the first slide tab in the tabs panel should be displayed as an active slide tab
+11 ms 
+When the page is opened initially, then the active slide tab should be displayed in the current slide
+12 ms 
+When the page is opened initially, it should consist of an HTML main heading element which should be displayed in the current slide with text content as the values of the key "heading" from the Initial Slides List provided
+89 ms 
+When the page is opened initially, it should consist of an HTML paragraph element which should be displayed in the current slide with text content as the values of the key "description" from the Initial Slides List provided
+11 ms 
+When the "New" button is clicked, then a new slide tab should be added to the tabs panel
+53 ms 
+When the page is opened initially, and the "New" button is clicked, then a new slide tab should be added after the active slide tab
+52 ms 
+When a new slide tab is added to the tabs panel, then a new slide tab item should be displayed as an active slide tab
+125 ms 
+When a new slide tab is added to the tabs panel, then a new slide should be displayed in the current slide
+123 ms 
+When the "New" button is clicked twice, then two new slide tab items should be added to the tabs panel
+70 ms 
+When the "New" button is clicked twice, then two new slide tabs should be added after the active slide tab
+71 ms 
+When two new slides are added to the tabs panel, then the latest added new slide tab item in the tabs panel should be displayed as an active slide tab
+237 ms 
+When two new slides are added to the tabs panel, then the last added new slide should be displayed in the current slide
+240 ms 
+When the third slide tab item in the tabs panel is active and the "New" button is clicked, then a new slide should be added to the tabs panel
+119 ms 
+When the third slide tab item in the tabs panel is active and the "New" button is clicked, then a new slide tab item should be added after the active slide tab
+112 ms 
+When the third slide tab item in the tabs panel is active and the "New" button is clicked, then a new slide tab item in the tabs panel should be displayed as an active slide tab
+206 ms 
+When the third slide tab item in the tabs panel is active and the "New" button is clicked, then a new slide should be displayed in the current slide
+193 ms 
+When the user clicks on the fifth slide tab in the tabs panel, then the fifth slide tab item should be updated as an active slide tab
+88 ms 
+When the user clicks on the fifth item in the tabs panel, then the fifth slide tab item should be displayed in the current slide
+91 ms 
+When the HTML main heading element in the current slide is clicked, then it should be changed to the HTML input element
+103 ms 
+When the HTML paragraph element in the current slide is clicked, then it should be changed to the HTML input element
+32 ms 
+When the HTML main heading element in the current slide is clicked and changed to the HTML input element and when the HTML input element loses the focus, then it should be changed to the HTML main heading element
+176 ms 
+When the HTML paragraph element in the current slide is clicked and changed to the HTML input element and when the HTML input element loses the focus, then it should be changed to the HTML paragraph element
+34 ms 
+When the HTML main heading element in the current slide is clicked and it is changed to the input element and when a value is provided in the HTML input element, then the value should be displayed in the HTML input element
+133 ms 
+When the HTML paragraph element in the current slide is clicked and it is changed to the input element and when a value is provided in the HTML input element, then the value should be displayed in the HTML input element
+46 ms 
+When the HTML main heading element in the current slide is clicked and it is changed to the input element and when the value is updated and it loses the focus, then the updated HTML input value should be displayed as HTML main heading element
+200 ms 
+When the HTML paragraph element in the current slide is clicked and it is changed to the HTML input element and when the value is updated and it loses the focus, then the updated HTML input value should be displayed as HTML paragraph element
+46 ms 
+When the HTML main heading element is changed to an HTML input element, a value provided in the HTML input element in the current slide, then it should be updated in the active slide tab
+125 ms 
+When the HTML paragraph element is changed to an HTML input element a value provided in the HTML input element in the current slide, then it should be updated in the active slide tab
+42 ms 
+When a new slide tab is added to the tabs panel and the HTML main heading element in the current slide is clicked, then it should be changed to the input element
+134 ms 
+When a new slide tab is added to the tabs panel and the HTML paragraph element in the current slide is clicked, then it should be changed to the input element
+50 ms 
+When a new slide tab is added and the heading in the current slide is clicked then the heading is changed to an HTML input element. When the input loses focus, then it should be changed to the heading
+241 ms 
+When a new slide tab is added and the description in the current slide is clicked then the description is changed to an HTML input element. When the input loses focus, then it should be changed to the description
+58 ms 
+When a new slide tab is added and the heading in the current slide is clicked then the heading is changed to an HTML input element. When a value is provided in the input element, then the value should be displayed in the input element
+142 ms 
+When a new slide tab is added and the description in the current slide is clicked then the description is changed to an HTML input element. When a value is provided in the input element, then the value should be displayed in the input element
+66 ms 
+When a new slide tab is added and the heading in the current slide is clicked then the heading is changed to an HTML input element. When the value is updated in the input element and it loses its focus then the updated input value should be displayed as a heading
+216 ms 
+When a new slide tab is added and the description in the current slide is clicked then the description is changed to an HTML input element. When the value is updated in the input element and it loses its focus then the updated input value should be displayed as a description
+61 ms 
+When a new slide tab is added and the heading in the current slide is clicked then the heading is changed to an HTML input element. When the value is updated in the input element and it loses its focus then the updated input value should be displayed in the active slide tab
+144 ms 
+When a new slide tab is added and the description in the current slide is clicked then the description is changed to an HTML input element. When the value is updated in the input element and it loses its focus then the updated input value should be displayed in the active slide tab
+67 ms 
